@@ -8,17 +8,17 @@ crud.py: Contains helper functions for database operations.
 database.py: Manages the MongoDB connection and provides the users_collection for CRUD operations.
 
 Setup Instructions
-1. Clone the Repository
-git clone https://github.com/Vaishnavipawar0901/Fastapi-.git
-cd Fastapi-
+ 1. Clone the Repository
+ git clone https://github.com/Vaishnavipawar0901/Fastapi-.git
+ cd Fastapi-
 
-2. Activate Virtual Environment
+ 2. Activate Virtual Environment
 .\venv\Scripts\activate  # For Windows
-source venv/bin/activate  # For macOS/Linux
+ source venv/bin/activate  # For macOS/Linux
 
-3.Run the Application
-uvicorn main:app --reload
-(The application will be running at http://127.0.0.1:8000.)
+ 3.Run the Application
+ uvicorn main:app --reload
+ (The application will be running at http://127.0.0.1:8000.)
 
 
 Endpoints
